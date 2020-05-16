@@ -1,0 +1,69 @@
+|top_key_beep
+clk => clk.IN2
+rst_n => rst_n.IN2
+key => key.IN1
+beep << beep_control:ubeep_control.beep
+
+
+|top_key_beep|key_debounce:ukey_debounce
+clk => key_flag~reg0.CLK
+clk => key_value~reg0.CLK
+clk => key_cnt[0].CLK
+clk => key_cnt[1].CLK
+clk => key_cnt[2].CLK
+clk => key_cnt[3].CLK
+clk => key_cnt[4].CLK
+clk => key_cnt[5].CLK
+clk => key_cnt[6].CLK
+clk => key_cnt[7].CLK
+clk => key_cnt[8].CLK
+clk => key_cnt[9].CLK
+clk => key_cnt[10].CLK
+clk => key_cnt[11].CLK
+clk => key_cnt[12].CLK
+clk => key_cnt[13].CLK
+clk => key_cnt[14].CLK
+clk => key_cnt[15].CLK
+clk => key_cnt[16].CLK
+clk => key_cnt[17].CLK
+clk => key_cnt[18].CLK
+clk => key_cnt[19].CLK
+clk => key_reg.CLK
+rst_n => key_cnt[0].ACLR
+rst_n => key_cnt[1].ACLR
+rst_n => key_cnt[2].ACLR
+rst_n => key_cnt[3].ACLR
+rst_n => key_cnt[4].ACLR
+rst_n => key_cnt[5].ACLR
+rst_n => key_cnt[6].ACLR
+rst_n => key_cnt[7].ACLR
+rst_n => key_cnt[8].ACLR
+rst_n => key_cnt[9].ACLR
+rst_n => key_cnt[10].ACLR
+rst_n => key_cnt[11].ACLR
+rst_n => key_cnt[12].ACLR
+rst_n => key_cnt[13].ACLR
+rst_n => key_cnt[14].ACLR
+rst_n => key_cnt[15].ACLR
+rst_n => key_cnt[16].ACLR
+rst_n => key_cnt[17].ACLR
+rst_n => key_cnt[18].ACLR
+rst_n => key_cnt[19].ACLR
+rst_n => key_reg.PRESET
+rst_n => key_flag~reg0.ACLR
+rst_n => key_value~reg0.PRESET
+key => always0.IN1
+key => key_reg.DATAIN
+key => key_value~reg0.DATAIN
+key_value <= key_value~reg0.DB_MAX_OUTPUT_PORT_TYPE
+key_flag <= key_flag~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top_key_beep|beep_control:ubeep_control
+clk => beep~reg0.CLK
+rst_n => beep~reg0.ACLR
+key_flag => always0.IN0
+key_value => always0.IN1
+beep <= beep~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
