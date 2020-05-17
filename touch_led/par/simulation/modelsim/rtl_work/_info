@@ -1,0 +1,60 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/fpga/fpga_study_code/fpga/touch_led/par/simulation/modelsim
+T_opt
+!s110 1589692357
+V`^:7MfD=8PT6V552C3=KL1
+04 17 4 work touch_led_vlg_tst fast 0
+=1-8c1645fbce02-5ec0c7c5-7b-5444
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work +acc
+n@_opt
+OL;O;10.4;61
+vtouch_led
+Z1 !s110 1589692356
+!i10b 1
+!s100 A9WVQ6hZjV@mTPJ[H0S]c0
+I8BeJjVZ1g1MfEe6g=XgDA0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1589690418
+8D:/fpga/fpga_study_code/fpga/touch_led/rtl/touch_led.v
+FD:/fpga/fpga_study_code/fpga/touch_led/rtl/touch_led.v
+L0 1
+Z3 OL;L;10.4;61
+r1
+!s85 0
+31
+!s108 1589692356.442000
+!s107 D:/fpga/fpga_study_code/fpga/touch_led/rtl/touch_led.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/fpga/fpga_study_code/fpga/touch_led/rtl|D:/fpga/fpga_study_code/fpga/touch_led/rtl/touch_led.v|
+!i113 0
+Z4 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+!s92 -vlog01compat -work work +incdir+D:/fpga/fpga_study_code/fpga/touch_led/rtl -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vtouch_led_vlg_tst
+R1
+!i10b 1
+!s100 WPdG[0z0=8Dk6_K6Ge<S_3
+IN6;W[9U3k^SE7<2ooa0zM2
+R2
+R0
+w1589692337
+8D:/fpga/fpga_study_code/fpga/touch_led/par/simulation/modelsim/touch_led.vt
+FD:/fpga/fpga_study_code/fpga/touch_led/par/simulation/modelsim/touch_led.vt
+L0 28
+R3
+r1
+!s85 0
+31
+!s108 1589692356.540000
+!s107 D:/fpga/fpga_study_code/fpga/touch_led/par/simulation/modelsim/touch_led.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/fpga/fpga_study_code/fpga/touch_led/par/simulation/modelsim|D:/fpga/fpga_study_code/fpga/touch_led/par/simulation/modelsim/touch_led.vt|
+!i113 0
+R4
+!s92 -vlog01compat -work work +incdir+D:/fpga/fpga_study_code/fpga/touch_led/par/simulation/modelsim -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
