@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="seg_led_dynamic">
+		<CBX_INST_ENTRY INSTANCE_NAME="|top_seg_led|seg_led:u_seg_led|lpm_divide:Div1" CBX_FILE_NAME="lpm_divide_0jm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top_seg_led|seg_led:u_seg_led|lpm_divide:Mod4" CBX_FILE_NAME="lpm_divide_0bm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top_seg_led|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_offload_buffer_mgr:\stp_non_zero_depth_offload_gen:stp_offload_buff_mgr_inst|LPM_COUNTER:read_pointer_counter" CBX_FILE_NAME="cntr_89j.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top_seg_led|seg_led:u_seg_led|lpm_divide:Div2" CBX_FILE_NAME="lpm_divide_akm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top_seg_led|seg_led:u_seg_led|lpm_divide:Mod1" CBX_FILE_NAME="lpm_divide_0bm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top_seg_led|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|altsyncram:\stp_non_zero_ram_gen:stp_buffer_ram" CBX_FILE_NAME="altsyncram_0124.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top_seg_led|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_offload_buffer_mgr:\stp_non_zero_depth_offload_gen:stp_offload_buff_mgr_inst|LPM_COUNTER:status_advance_pointer_counter" CBX_FILE_NAME="cntr_cgi.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top_seg_led|seg_led:u_seg_led|lpm_divide:Div3" CBX_FILE_NAME="lpm_divide_fkm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top_seg_led|seg_led:u_seg_led|lpm_divide:Mod2" CBX_FILE_NAME="lpm_divide_0bm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top_seg_led|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|altdpram:\stp_non_zero_ram_gen:attribute_mem_gen:attribute_mem|lpm_mux:mux" CBX_FILE_NAME="mux_psc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top_seg_led|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_offload_buffer_mgr:\stp_non_zero_depth_offload_gen:stp_offload_buff_mgr_inst|LPM_COUNTER:\adv_point_3_and_more:advance_pointer_counter" CBX_FILE_NAME="cntr_ggi.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top_seg_led|seg_led:u_seg_led|lpm_divide:Div0" CBX_FILE_NAME="lpm_divide_tim.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top_seg_led|seg_led:u_seg_led|lpm_divide:Div4" CBX_FILE_NAME="lpm_divide_hkm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top_seg_led|seg_led:u_seg_led|lpm_divide:Mod3" CBX_FILE_NAME="lpm_divide_0bm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top_seg_led|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|altdpram:\stp_non_zero_ram_gen:attribute_mem_gen:attribute_mem|lpm_decode:wdecoder" CBX_FILE_NAME="decode_dvf.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top_seg_led|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_offload_buffer_mgr:\stp_non_zero_depth_offload_gen:stp_offload_buff_mgr_inst|LPM_COUNTER:status_read_pointer_counter" CBX_FILE_NAME="cntr_23j.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top_seg_led|seg_led:u_seg_led|lpm_divide:Mod0" CBX_FILE_NAME="lpm_divide_0bm.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

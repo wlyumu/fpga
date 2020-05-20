@@ -1,0 +1,16 @@
+Fitter Status : Successful - Wed May 20 00:08:37 2020
+Quartus II 64-Bit Version : 13.1.0 Build 162 10/23/2013 SJ Full Version
+Revision Name : seg_led_dynamic
+Top-level Entity Name : top_seg_led
+Family : Cyclone IV E
+Device : EP4CE10F17C8
+Timing Models : Final
+Total logic elements : 3,211 / 10,320 ( 31 % )
+    Total combinational functions : 2,629 / 10,320 ( 25 % )
+    Dedicated logic registers : 1,141 / 10,320 ( 11 % )
+Total registers : 1141
+Total pins : 16 / 180 ( 9 % )
+Total virtual pins : 0
+Total memory bits : 52,224 / 423,936 ( 12 % )
+Embedded Multiplier 9-bit elements : 0 / 46 ( 0 % )
+Total PLLs : 0 / 2 ( 0 % )
