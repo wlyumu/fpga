@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sun May 24 18:21:33 2020
+Quartus II 64-Bit Version : 13.1.0 Build 162 10/23/2013 SJ Full Version
+Revision Name : ram_core
+Top-level Entity Name : ram_core
+Family : Cyclone IV E
+Total logic elements : 943
+    Total combinational functions : 553
+    Dedicated logic registers : 741
+Total registers : 741
+Total pins : 2
+Total virtual pins : 0
+Total memory bits : 49,408
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
