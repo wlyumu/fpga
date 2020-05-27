@@ -1,0 +1,144 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/wl/Desktop/uart/par/simulation/modelsim
+T_opt
+!s110 1590584909
+VZIkZiGk8SC6fdcdiIPPZZ2
+04 16 4 work uart_top_vlg_tst fast 0
+=1-8c1645fbce02-5ece664c-bb-4600
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work +acc
+n@_opt
+OL;O;10.4;61
+vip_pll
+Z1 !s110 1590584906
+!i10b 1
+!s100 7hc^m`U4EGc6JTA`dSAa=3
+IbV?H9O3dON<71P_5Qf1ei0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1590508438
+8C:/Users/wl/Desktop/uart/par/ipcore/ip_pll.v
+FC:/Users/wl/Desktop/uart/par/ipcore/ip_pll.v
+L0 39
+Z3 OL;L;10.4;61
+r1
+!s85 0
+31
+!s108 1590584906.834000
+!s107 C:/Users/wl/Desktop/uart/par/ipcore/ip_pll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/wl/Desktop/uart/par/ipcore|C:/Users/wl/Desktop/uart/par/ipcore/ip_pll.v|
+!i113 0
+Z4 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+!s92 -vlog01compat -work work +incdir+C:/Users/wl/Desktop/uart/par/ipcore -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vip_pll_altpll
+R1
+!i10b 1
+!s100 hCH[Q@?lQb0Se;5Pe:YnG1
+I=2]TS_SIAaXbn^nicO:P>3
+R2
+R0
+w1590508518
+8C:/Users/wl/Desktop/uart/par/db/ip_pll_altpll.v
+FC:/Users/wl/Desktop/uart/par/db/ip_pll_altpll.v
+L0 29
+R3
+r1
+!s85 0
+31
+!s108 1590584906.928000
+!s107 C:/Users/wl/Desktop/uart/par/db/ip_pll_altpll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/wl/Desktop/uart/par/db|C:/Users/wl/Desktop/uart/par/db/ip_pll_altpll.v|
+!i113 0
+R4
+!s92 -vlog01compat -work work +incdir+C:/Users/wl/Desktop/uart/par/db -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vuart_rx
+R1
+!i10b 1
+!s100 m^CRX4[9hH?HJ=fN76XWQ3
+I<S=]Q1Agk>E>AbLk30ihU2
+R2
+R0
+w1590555766
+8C:/Users/wl/Desktop/uart/rtl/uart_rx.v
+FC:/Users/wl/Desktop/uart/rtl/uart_rx.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1590584906.741000
+!s107 C:/Users/wl/Desktop/uart/rtl/uart_rx.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/wl/Desktop/uart/rtl|C:/Users/wl/Desktop/uart/rtl/uart_rx.v|
+!i113 0
+R4
+Z5 !s92 -vlog01compat -work work +incdir+C:/Users/wl/Desktop/uart/rtl -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vuart_top
+R1
+!i10b 1
+!s100 @9c2dM0=8eY5o7Bbf4YmF0
+IDZk1A5O:Q@6ii;cn^0GBS2
+R2
+R0
+w1590510536
+8C:/Users/wl/Desktop/uart/rtl/uart_top.v
+FC:/Users/wl/Desktop/uart/rtl/uart_top.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1590584906.663000
+!s107 C:/Users/wl/Desktop/uart/rtl/uart_top.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/wl/Desktop/uart/rtl|C:/Users/wl/Desktop/uart/rtl/uart_top.v|
+!i113 0
+R4
+R5
+vuart_top_vlg_tst
+!s110 1590584907
+!i10b 1
+!s100 ]QLXzSM^bi_H5L3X6SV;32
+IMiShC;_]@BV:JamzYVWPX1
+R2
+R0
+w1590565514
+8C:/Users/wl/Desktop/uart/par/simulation/modelsim/uart_top.vt
+FC:/Users/wl/Desktop/uart/par/simulation/modelsim/uart_top.vt
+L0 28
+R3
+r1
+!s85 0
+31
+!s108 1590584907.022000
+!s107 C:/Users/wl/Desktop/uart/par/simulation/modelsim/uart_top.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/wl/Desktop/uart/par/simulation/modelsim|C:/Users/wl/Desktop/uart/par/simulation/modelsim/uart_top.vt|
+!i113 0
+R4
+!s92 -vlog01compat -work work +incdir+C:/Users/wl/Desktop/uart/par/simulation/modelsim -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vuart_tx
+R1
+!i10b 1
+!s100 M]chXKPei0GL7ZZ[Z`3n]2
+In3[9U3=h^Yi4k23@jQaao0
+R2
+R0
+w1590555746
+8C:/Users/wl/Desktop/uart/rtl/uart_tx.v
+FC:/Users/wl/Desktop/uart/rtl/uart_tx.v
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1590584906.553000
+!s107 C:/Users/wl/Desktop/uart/rtl/uart_tx.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/wl/Desktop/uart/rtl|C:/Users/wl/Desktop/uart/rtl/uart_tx.v|
+!i113 0
+R4
+R5
