@@ -10,10 +10,6 @@ module cymometer #(CLK_FS = 26'd50_000_000)
 );
 
 
-
-
-
-
 localparam GATE_CLK_CNT = 16'd5_000;
 
 /*待测时钟*/
