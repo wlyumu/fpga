@@ -5,7 +5,7 @@ module cymometer #(CLK_FS = 26'd50_000_000)
   
   input clk_fx,
   
-  output reg [19 : 0] data_fx;
+  output reg [19 : 0] data_fx
 
 );
 
@@ -37,13 +37,13 @@ wire  gata_fx_nege;
 wire  gata_fs_nege;
 
 assign gata_fx_nege = gata_fx_d1 &(~ gata_fx_d0);
-assign gata_fs_nege = gata_fs_d0 &(~ gata_fs_d1);                   
+assign gata_fs_nege = gata_fs_d1 &(~ gata_fs_d0);                   
 /*门控计数器*/
 always @(posedge clk_fx or negedge rst_n)begin
    if(!rst_n)
      gata_cnt <= 16'd0;
     else begin
-     if(gata_cnt <= GATE_CLK_CNT + 16'd20)
+     if(gata_cnt <= GATE_CLK_CNT + 5'd20)
        gata_cnt <= gata_cnt + 1'd1;   
      else 
        gata_cnt <= 16'd0;
