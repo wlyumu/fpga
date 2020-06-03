@@ -33,6 +33,9 @@ reg [15 : 0]gata_cnt;
 /*门控信号*/
 reg gata;
 
+
+
+
 wire  gata_fx_nege;
 wire  gata_fs_nege;
 
