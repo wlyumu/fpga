@@ -1,0 +1,9 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/wl/Desktop/mux/rtl/mux.v
+source_file = 1, C:/Users/wl/Desktop/mux/pro/db/mux.cbx.xml
+design_name = mux
+instance = comp, \out~output , out~output, mux, 1
+instance = comp, \sel~input , sel~input, mux, 1
+instance = comp, \in1~input , in1~input, mux, 1
+instance = comp, \in2~input , in2~input, mux, 1
+instance = comp, \out~0 , out~0, mux, 1

@@ -1,0 +1,69 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/wl/Desktop/mux/pro/simulation/modelsim
+T_opt
+!s110 1592190979
+VL9CKbnT8K<dfahdTfz34R0
+Z1 04 11 4 work mux_vlg_tst fast 0
+=1-4ccc6aa12a2c-5ee6e803-275-ee0
+Z2 o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work +acc
+n@_opt
+Z3 OL;O;10.4;61
+R0
+T_opt1
+!s110 1592191840
+VE=407L4P7Nb96773RSGHb1
+R1
+=1-4ccc6aa12a2c-5ee6eb60-122-26d8
+R2
+n@_opt1
+R3
+vmux
+Z4 !s110 1592191839
+!i10b 1
+!s100 Ae`CkOdz4dhaQ?GkL8@ZJ2
+I[lJ]94]GRGn>b@i7nP3_^1
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1592189550
+8C:/Users/wl/Desktop/mux/rtl/mux.v
+FC:/Users/wl/Desktop/mux/rtl/mux.v
+L0 1
+Z6 OL;L;10.4;61
+r1
+!s85 0
+31
+!s108 1592191839.711000
+!s107 C:/Users/wl/Desktop/mux/rtl/mux.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/wl/Desktop/mux/rtl|C:/Users/wl/Desktop/mux/rtl/mux.v|
+!i113 0
+Z7 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+!s92 -vlog01compat -work work +incdir+C:/Users/wl/Desktop/mux/rtl -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vmux_vlg_tst
+R4
+!i10b 1
+!s100 =nCzAA^BaAkNGMe1dggIm2
+I4_W4P2FaTZ3AYjlUaSbU;0
+R5
+R0
+w1592191712
+8C:/Users/wl/Desktop/mux/pro/simulation/modelsim/mux.vt
+FC:/Users/wl/Desktop/mux/pro/simulation/modelsim/mux.vt
+L0 28
+R6
+r1
+!s85 0
+31
+!s108 1592191839.848000
+!s107 C:/Users/wl/Desktop/mux/pro/simulation/modelsim/mux.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/wl/Desktop/mux/pro/simulation/modelsim|C:/Users/wl/Desktop/mux/pro/simulation/modelsim/mux.vt|
+!i113 0
+R7
+!s92 -vlog01compat -work work +incdir+C:/Users/wl/Desktop/mux/pro/simulation/modelsim -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
