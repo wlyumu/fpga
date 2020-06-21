@@ -1,5 +1,5 @@
 Analysis & Synthesis report for filp_flop
-Thu Jun 18 15:32:01 2020
+Sun Jun 21 21:05:26 2020
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Full Version
 
 
@@ -41,7 +41,7 @@ applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu Jun 18 15:32:00 2020       ;
+; Analysis & Synthesis Status        ; Successful - Sun Jun 21 21:05:26 2020       ;
 ; Quartus II 64-Bit Version          ; 13.1.0 Build 162 10/23/2013 SJ Full Version ;
 ; Revision Name                      ; filp_flop                                   ;
 ; Top-level Entity Name              ; flip_flop                                   ;
@@ -150,7 +150,7 @@ applicable agreement for further details.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 4           ;
+; Number detected on machine ; 8           ;
 ; Maximum allowed            ; 4           ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
@@ -158,17 +158,17 @@ applicable agreement for further details.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processors 2-4         ;   0.0%      ;
+;     Processors 2-8         ;   0.0%      ;
 +----------------------------+-------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                     ;
-+----------------------------------+-----------------+------------------------+----------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                       ; Library ;
-+----------------------------------+-----------------+------------------------+----------------------------------------------------+---------+
-; ../rtl/flip_flop.v               ; yes             ; User Verilog HDL File  ; C:/Users/wl/Desktop/fpga/flip_flop/rtl/flip_flop.v ;         ;
-+----------------------------------+-----------------+------------------------+----------------------------------------------------+---------+
++------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                         ;
++----------------------------------+-----------------+------------------------+--------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                           ; Library ;
++----------------------------------+-----------------+------------------------+--------------------------------------------------------+---------+
+; ../rtl/flip_flop.v               ; yes             ; User Verilog HDL File  ; D:/fpga/fpga_study_code/fpga/flip_flop/rtl/flip_flop.v ;         ;
++----------------------------------+-----------------+------------------------+--------------------------------------------------------+---------+
 
 
 +------------------------------------------------------------+
@@ -241,10 +241,10 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.1.0 Build 162 10/23/2013 SJ Full Version
-    Info: Processing started: Thu Jun 18 15:31:58 2020
+    Info: Processing started: Sun Jun 21 21:05:25 2020
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off filp_flop -c filp_flop
-Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
-Info (12021): Found 1 design units, including 1 entities, in source file /users/wl/desktop/fpga/flip_flop/rtl/flip_flop.v
+Info (11104): Parallel Compilation has detected 8 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 4 of the 4 physical processors detected instead.
+Info (12021): Found 1 design units, including 1 entities, in source file /fpga/fpga_study_code/fpga/flip_flop/rtl/flip_flop.v
     Info (12023): Found entity 1: flip_flop
 Info (12127): Elaborating entity "flip_flop" for the top level hierarchy
 Info (286030): Timing-Driven Synthesis is running
@@ -255,9 +255,9 @@ Info (21057): Implemented 5 device resources after synthesis - the final resourc
     Info (21059): Implemented 1 output pins
     Info (21061): Implemented 1 logic cells
 Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 4646 megabytes
-    Info: Processing ended: Thu Jun 18 15:32:01 2020
-    Info: Elapsed time: 00:00:03
+    Info: Peak virtual memory: 4643 megabytes
+    Info: Processing ended: Sun Jun 21 21:05:26 2020
+    Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 
 

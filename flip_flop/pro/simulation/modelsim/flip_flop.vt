@@ -59,7 +59,7 @@ begin
   
 end                                                    
 always  #10  sys_clk = ~sys_clk;
-always  #10  key_in <= ($random) % 2;
+always  #30  key_in <= ($random) % 2;
 
 initial begin
   $timeformat(-9, 0, "ns", 6 );

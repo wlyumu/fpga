@@ -1,6 +1,6 @@
 vendor_name = ModelSim
-source_file = 1, C:/Users/wl/Desktop/fpga/flip_flop/rtl/flip_flop.v
-source_file = 1, C:/Users/wl/Desktop/fpga/flip_flop/pro/db/filp_flop.cbx.xml
+source_file = 1, D:/fpga/fpga_study_code/fpga/flip_flop/rtl/flip_flop.v
+source_file = 1, D:/fpga/fpga_study_code/fpga/flip_flop/pro/db/filp_flop.cbx.xml
 design_name = flip_flop
 instance = comp, \led_out~output , led_out~output, flip_flop, 1
 instance = comp, \sys_clk~input , sys_clk~input, flip_flop, 1

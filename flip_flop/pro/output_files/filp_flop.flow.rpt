@@ -1,5 +1,5 @@
 Flow report for filp_flop
-Thu Jun 18 15:32:17 2020
+Sun Jun 21 21:05:37 2020
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Full Version
 
 
@@ -40,7 +40,7 @@ applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Thu Jun 18 15:32:17 2020       ;
+; Flow Status                        ; Successful - Sun Jun 21 21:05:37 2020       ;
 ; Quartus II 64-Bit Version          ; 13.1.0 Build 162 10/23/2013 SJ Full Version ;
 ; Revision Name                      ; filp_flop                                   ;
 ; Top-level Entity Name              ; flip_flop                                   ;
@@ -64,7 +64,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 06/18/2020 15:31:59 ;
+; Start date & time ; 06/21/2020 21:05:25 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; filp_flop           ;
 +-------------------+---------------------+
@@ -75,7 +75,7 @@ applicable agreement for further details.
 +--------------------------------------+---------------------------------------+---------------+-------------+-------------------+
 ; Assignment Name                      ; Value                                 ; Default Value ; Entity Name ; Section Id        ;
 +--------------------------------------+---------------------------------------+---------------+-------------+-------------------+
-; COMPILER_SIGNATURE_ID                ; 84440845986348.159246551915084        ; --            ; --          ; --                ;
+; COMPILER_SIGNATURE_ID                ; 154027291299330.159274472515956       ; --            ; --          ; --                ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                    ; --            ; --          ; flip_flop_vlg_tst ;
 ; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; flip_flop_vlg_tst                     ; --            ; --          ; eda_simulation    ;
 ; EDA_OUTPUT_DATA_FORMAT               ; Verilog Hdl                           ; --            ; --          ; eda_simulation    ;
@@ -104,12 +104,12 @@ applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:02     ; 1.0                     ; 4646 MB             ; 00:00:01                           ;
-; Fitter                    ; 00:00:06     ; 1.0                     ; 5375 MB             ; 00:00:05                           ;
-; Assembler                 ; 00:00:01     ; 1.0                     ; 4589 MB             ; 00:00:01                           ;
-; TimeQuest Timing Analyzer ; 00:00:02     ; 1.0                     ; 4679 MB             ; 00:00:02                           ;
-; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 4559 MB             ; 00:00:01                           ;
-; Total                     ; 00:00:11     ; --                      ; --                  ; 00:00:10                           ;
+; Analysis & Synthesis      ; 00:00:01     ; 1.0                     ; 4643 MB             ; 00:00:01                           ;
+; Fitter                    ; 00:00:03     ; 1.0                     ; 5368 MB             ; 00:00:04                           ;
+; Assembler                 ; 00:00:00     ; 1.0                     ; 4585 MB             ; 00:00:01                           ;
+; TimeQuest Timing Analyzer ; 00:00:01     ; 1.0                     ; 4666 MB             ; 00:00:01                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4556 MB             ; 00:00:00                           ;
+; Total                     ; 00:00:06     ; --                      ; --                  ; 00:00:07                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -118,11 +118,11 @@ applicable agreement for further details.
 +---------------------------+------------------+-----------+------------+----------------+
 ; Module Name               ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
 +---------------------------+------------------+-----------+------------+----------------+
-; Analysis & Synthesis      ; DESKTOP-QR3K6KV  ; Windows 7 ; 6.2        ; x86_64         ;
-; Fitter                    ; DESKTOP-QR3K6KV  ; Windows 7 ; 6.2        ; x86_64         ;
-; Assembler                 ; DESKTOP-QR3K6KV  ; Windows 7 ; 6.2        ; x86_64         ;
-; TimeQuest Timing Analyzer ; DESKTOP-QR3K6KV  ; Windows 7 ; 6.2        ; x86_64         ;
-; EDA Netlist Writer        ; DESKTOP-QR3K6KV  ; Windows 7 ; 6.2        ; x86_64         ;
+; Analysis & Synthesis      ; LAPTOP-K5AU5523  ; Windows 7 ; 6.2        ; x86_64         ;
+; Fitter                    ; LAPTOP-K5AU5523  ; Windows 7 ; 6.2        ; x86_64         ;
+; Assembler                 ; LAPTOP-K5AU5523  ; Windows 7 ; 6.2        ; x86_64         ;
+; TimeQuest Timing Analyzer ; LAPTOP-K5AU5523  ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; LAPTOP-K5AU5523  ; Windows 7 ; 6.2        ; x86_64         ;
 +---------------------------+------------------+-----------+------------+----------------+
 
 

@@ -1,0 +1,62 @@
+# Current time Mon Jun 22 00:18:06 2020
+# ModelSim Stack Trace
+# Program = vish
+# Id = "10.4"
+# Version = "2014.12"
+# Date = "Dec  3 2014"
+# Platform = win64
+
+Exception c0000005 has occurred at address 4005ec63. Traceback:
+# 0    0x4005ec63: '<unknown (@0x4005ec63)>'
+# 1    0x10011461: 'Tcl_ListMathFuncs + 0x591'
+# 2    0x10012405: 'Tcl_EvalEx + 0x9c5'
+# 3    0x10012f19: 'TclEvalObjEx + 0x249'
+# 4    0x1001af97: 'Tcl_DbCkrealloc + 0x33d7'
+# 5    0x10011461: 'Tcl_ListMathFuncs + 0x591'
+# 6    0x1005931a: 'Tcl_ExprObj + 0x1baa'
+# 7    0x100a62b4: 'TclObjInterpProcCore + 0x74'
+# 8    0x10011461: 'Tcl_ListMathFuncs + 0x591'
+# 9    0x10012405: 'Tcl_EvalEx + 0x9c5'
+# 10   0x10012f19: 'TclEvalObjEx + 0x249'
+# 11   0x1001af97: 'Tcl_DbCkrealloc + 0x33d7'
+# 12   0x10011461: 'Tcl_ListMathFuncs + 0x591'
+# 13   0x1005931a: 'Tcl_ExprObj + 0x1baa'
+# 14   0x100a62b4: 'TclObjInterpProcCore + 0x74'
+# 15   0x10011461: 'Tcl_ListMathFuncs + 0x591'
+# 16   0x1005931a: 'Tcl_ExprObj + 0x1baa'
+# 17   0x100a62b4: 'TclObjInterpProcCore + 0x74'
+# 18   0x10011461: 'Tcl_ListMathFuncs + 0x591'
+# 19   0x1005931a: 'Tcl_ExprObj + 0x1baa'
+# 20   0x100a62b4: 'TclObjInterpProcCore + 0x74'
+# 21   0x10011461: 'Tcl_ListMathFuncs + 0x591'
+# 22   0x10012405: 'Tcl_EvalEx + 0x9c5'
+# 23   0x10012f19: 'TclEvalObjEx + 0x249'
+# 24   0x1001af97: 'Tcl_DbCkrealloc + 0x33d7'
+# 25   0x10011461: 'Tcl_ListMathFuncs + 0x591'
+# 26   0x1005931a: 'Tcl_ExprObj + 0x1baa'
+# 27   0x100a62b4: 'TclObjInterpProcCore + 0x74'
+# 28   0x10011461: 'Tcl_ListMathFuncs + 0x591'
+# 29   0x10012405: 'Tcl_EvalEx + 0x9c5'
+# 30   0x10012f19: 'TclEvalObjEx + 0x249'
+# 31   0x1001af97: 'Tcl_DbCkrealloc + 0x33d7'
+# 32   0x10011461: 'Tcl_ListMathFuncs + 0x591'
+# 33   0x1005931a: 'Tcl_ExprObj + 0x1baa'
+# 34   0x100a62b4: 'TclObjInterpProcCore + 0x74'
+# 35   0x10011461: 'Tcl_ListMathFuncs + 0x591'
+# 36   0x1005931a: 'Tcl_ExprObj + 0x1baa'
+# 37   0x10057f0a: 'Tcl_ExprObj + 0x79a'
+# 38   0x100130b0: 'TclEvalObjEx + 0x3e0'
+# 39   0x100ba41c: 'TclServiceIdle + 0xa6c'
+# 40   0x100b97df: 'Tcl_DeleteTimerHandler + 0x27f'
+# 41   0x10095092: 'Tcl_ServiceEvent + 0xd2'
+# 42   0x1009540b: 'Tcl_DoOneEvent + 0xcb'
+# 43   0x102e21a5: 'Tk_MainLoop + 0x25'
+# 44   0x102ae12b: 'Tk_MainEx + 0x91b'
+# 45   0x400e051b: 'Mtirpc_Init + 0x22aeb'
+# 46   0x400e2292: 'Mtirpc_Init + 0x24862'
+# 47   0x405a75f2: 'Sqlite_Unload + 0xb3492'
+# 48   0x6bbc7bd4: 'BaseThreadInitThunk + 0x14'
+# 49   0x6caece51: 'RtlUserThreadStart + 0x21'
+StackWalk failed 0
+# End of Stack Trace
+
