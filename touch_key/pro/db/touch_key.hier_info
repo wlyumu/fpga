@@ -1,0 +1,13 @@
+|touch_key
+sys_clk => led_out~reg0.CLK
+sys_clk => touch_flag.CLK
+sys_clk => touch_key2.CLK
+sys_clk => touch_key1.CLK
+sys_rst_n => led_out~reg0.ACLR
+sys_rst_n => touch_key2.ACLR
+sys_rst_n => touch_key1.ACLR
+sys_rst_n => touch_flag.ACLR
+touch_key => touch_key1.DATAIN
+led_out <= led_out~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
